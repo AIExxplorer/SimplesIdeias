@@ -1,8 +1,8 @@
-// tailwind.config.js
+// tailwind.config.cjs
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./index.html", // Keep this if you have a root index.html
+    "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}" // Include .astro and other types used by Astro
   ],
   theme: {
     extend: {
