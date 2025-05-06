@@ -6,6 +6,9 @@
 # Node modules
 node_modules
 
+# Firebase
+firebaseConfig.js
+
 # Build output
 dist
 dist-ssr
